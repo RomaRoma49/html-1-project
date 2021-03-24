@@ -1,0 +1,6 @@
+{
+    "html-css-class-completion.enableEmmetSupport": true,
+    "workbench.editorAssociations": [
+    ]
+    "editor.rulers": [80]
+}

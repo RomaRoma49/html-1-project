@@ -1,80 +1,109 @@
-.content{
+body {
+    font-family: ArialMT;
+}
+
+.content {
     margin: 0 auto;
-    max-width: 960px;
-    min-width: 960px;
-    padding: 0 10px;
-    background-color: #d4ffe7;
+    width: 980px;
+    padding: 20px 10px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 400;
 }
 
 /* HEADER ELEMENTS */
-.header{
-    background-color: #88e9fa;
+.header {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.header_left_element, .header_central_element, .header_right_element{
-    background-color: #ffc694;
+.header_left_element,
+.header_central_element,
+.header_right_element {
     height: 108px;
 }
 
-.header_left_element{
+.header_left_element {
     width: 122px;
 }
 
-.header_central_element{
+.header_central_element {
     width: 279px;
 }
 
-.header_right_element{
+/*HEADER ELEMENTS*/
+.header_right_element {
     width: 513px;
-}
-
-/* HORIZONTAL LINE */
-.hr{
-    background-color: rgb(115, 255, 0);
-    width: 100%;
-    height: 1px;
-    margin: 18px 0;
-}
-
-/*CENTRAL PART OF THE PAGE*/
-.main_content{
-    background-color: #88e9fa;
-    width: 100%;
+    padding: 25px 22px;
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
+.phone_number {
+    text-decoration: none;
+}
+
+/*CENTRAL PART OF THE PAGE*/
+.main_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 19px 0;
+    padding: 20px 0;
+    border-top: 1px solid #696969;
+    border-bottom: 1px solid #696969;
+}
+
 /*SIDEBAR*/
-.sidebar{
+.sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.sidebar_lower_element, .sidebar_upper_element{
+.sidebar_lower_element,
+.sidebar_upper_element {
     width: 184px;
-    background-color: #ffc694;
 }
 
-.sidebar_upper_element{
+.sidebar_upper_element {
     height: 335px;
+    padding: 19px 32px 17px 13px;
+    line-height: 22px;
 }
 
-.sidebar_lower_element{
+h2,
+.bold_text {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sidebar_lower_element {
     height: 134px;
 }
 
 /*RIGHT MAIN PART*/
-.main_content_upper_element{
-    width: 757px;
-    height: 210px;
-    background-color:#ffc694;
+.main_content_elements {
+    line-height: 22px;
 }
 
-.main_content_central_elementns{
+.main_content_upper_element {
+    width: 757px;
+    height: 210px;
+    padding: 22px 70px 20px 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_content_upper_element ul {
+    margin-left: 50px;
+}
+
+.main_content_central_elementns {
     max-width: 757px;
     margin: 20px 0;
     display: grid;
@@ -82,14 +111,81 @@
     grid-gap: 20px;
 }
 
-.images{
+.images {
     width: 135px;
     height: 153px;
-    background-color: #ffc694;
 }
+
+.main_content_lower_element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_content_lower_left_element,
+.main_content_lower_rigth_element {
+    padding: 23px 18px;
+    line-height: 22px;
+    width: 370px;
+    height: 200px;
+}
+
 /*FOOTER*/
-.footer{
-    background-color: #88e9fa;
+.footer {
     width: 100%;
-    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left_element {
+    padding: 18px 87px 18px 25px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 22px;
+}
+
+.footer_central_element {
+    line-height: 22px;
+    padding: 18px 25px 18px 40px;
+    line-height: 22px;
+}
+
+.footer_right_element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_left_element,
+.footer_central_element {
+    width: 297px;
+    height: 180px;
+}
+
+
+.footer_right_upper_element,
+.footer_right_lower_element {
+    width: 308px;
+    height: 75px;
+}
+
+.header_left_element,
+.header_central_element,
+.header_right_element,
+.header_right_element a,
+.sidebar_upper_element,
+.sidebar_lower_element,
+.footer_left_element,
+.footer_central_element,
+.footer_right_lower_element,
+.footer_right_upper_element {
+    background-color: #777777;
+    color: #ffffff;
+}
+
+.main_content_upper_element,
+.images,
+.main_content_lower_left_element,
+.main_content_lower_rigth_element {
+    background-color: #dcdcdc;
+    color: #777777;
 }
