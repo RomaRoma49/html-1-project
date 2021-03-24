@@ -103,17 +103,15 @@ h2,
     margin-left: 50px;
 }
 
+img{
+    /* border: 1 px solid black; */
+}
 .main_content_central_elementns {
     max-width: 757px;
     margin: 20px 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-}
-
-.images {
-    width: 135px;
-    height: 153px;
 }
 
 .main_content_lower_element {
@@ -183,7 +181,7 @@ h2,
 }
 
 .main_content_upper_element,
-.images,
+.images, img,
 .main_content_lower_left_element,
 .main_content_lower_rigth_element {
     background-color: #dcdcdc;
